@@ -11,6 +11,7 @@ public class Win {
         }
         return result;
     }
+
     public static boolean monoVertical(int[][] board, int column) {
         boolean result = true;
         for (int[] ints : board) {
@@ -21,6 +22,7 @@ public class Win {
         }
         return result;
     }
+
     public static int[] extractDiagonal(int[][] board) {
         int[] rsl = new int[board.length];
         for (int i = 0; i < board.length; i++) {
@@ -28,6 +30,7 @@ public class Win {
         }
         return rsl;
     }
+
     public static boolean check(int[][] board) {
         boolean rsl = false;
         for (int i = 0; i < board.length; i++) {
